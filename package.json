@@ -3,11 +3,10 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "build": "tsc"
   },
   "version": "1.0.0",
-  "private": true,
   "dependencies": {
     "@types/express": "^4.16.0",
     "express": "^4.16.4"
